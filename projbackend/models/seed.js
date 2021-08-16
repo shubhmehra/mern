@@ -28,4 +28,4 @@ const seedUser = async () => {
   }
 };
 
-seedUser();
+module.exports = seedUser
